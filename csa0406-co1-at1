@@ -1,0 +1,67 @@
+Name:P.Jessica Hephzbah
+reg No:192511425
+q1)a)Multi-user Operating System 
+Justification:this allows many students to use the same server at the same time while sharing the system data sercurely and more efficiently
+b)Process Scheduling – this allocates the time for CPU to process at different times
+Memory Management – this allocates where the data should be placed so that the memory is protected when each time process happens.
+c) pseudocode:
+   Start
+   Create a child process using fork()
+  If process is Child then
+    Display Child Process ID using getpid()
+  Else
+    Display Parent Process ID using getpid()
+    Display Child Process ID
+   Stop
+
+q2)a)open()-open() is used to create a file 
+     write()-write() is used to write data in a the file opened
+     read()-read() is used to read the data written in the file
+     close()-close() is used to save all the data stored and then close it .
+b)read() - to read the data written in the file.
+  write()- to write the wanted data in the file and save it.
+c)Pseudocode:
+  Start
+  Create/Open file "student.txt"
+  Write "Jessica" into the file
+  Close the file
+  Stop
+
+q3)a)open()-open() is used to create a file 
+     write()-write() is used to write data in a the file opened
+     read()-read() is used to read the data written in the file
+     close()-close() is used to save all the data stored and then close it .
+b)read() - to read the data written in the file.
+  write()- to write the wanted data in the file and save it.
+c)Pseudocode:
+Start
+Open source file
+Open designated file
+Read data from source file
+Write data to the designated file
+Close source file
+Close designated file
+Stop
+
+q4)a)fork() – fork() creates a new child process.
+     exec() – exec() this replaces the current process with a new program.
+b) wait() makes the parent process wait until the child process finishes execution.
+c)Pseudocode:
+Start
+fork()
+If Child
+    exec(New Program)
+Else
+    wait()
+    Print "Child process completed"
+Stop
+
+q5)a)File management helps the operating system store, organize, access, and protect files so that users can easily save and retrieve data from secondary memory.
+b)open()-open() is used to create a file 
+  close()-close() is used to save all the data stored and then close it .
+c)Pseudocode:
+Start
+Open file
+Read file contents
+Close file
+Stop
